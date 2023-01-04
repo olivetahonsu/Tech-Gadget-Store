@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS</title>
+    <link rel="stylesheet" href="ems_style.css">
+    <link rel="stylesheet" href="cart_style.css">
+</head>
+<body>
+    <section id="intro">
+
+        <header class="header">
+        <img id="ems" src="Images/EMS.svg" height="30px" alt="">
+        <nav id="nav_bar">
+            <ul>
+                <li><a href="#intro" >Intro</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#shop">Shop</a></li>
+            </ul>
+        </nav>
+
+        <button id="cart_btn" type="button">
+        <a href="#modal" class="modalBtn">
+            <img src="Images/cart.svg" class= "cart_img" alt="cart icon">
+            <h4 id="cart_text">0</h4>
+        </a>
+        
+    </button>
+    </header>
+
+        <h1 id="store_title">THE E-MILLENIAL STORE</h1>
+        <img id="hero_image" src="Images/heroImage.png" alt="hero image">
+
+       
+            <a href="#shop"><button  id="shop_now">SHOP NOW</button></a>
+
+
+            <div class="cart_container" id="modal">
+
+                
+                <div class="cart">
+
+                    <div >
+                        <table class="table" style="display: none">
+                            <tr>
+                                <th>S/N</th>
+                                <th>Item</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th></th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <input type="text" name="First Name" placeholder="First Name" id="fisrt_first_name">
+                    <input type="text" name="Last Name" placeholder="Last Name" id="last_name">
+                    <input type="email" name="email" placeholder="Email" id="email_id">
+               
+        
+                <h3>Total Amount to be Paid</h3>
+                <h3 id="total_amount">0</h3>
+        
+                <input type="button" value="Continue Shopping" id="continue_shopping">
+                <input type="button" value="Checkout" id="checkout">
+        
+                </div>
+        
+            </div>
+        
+    </section>
+
+    <section id="about">
+        <p>E-Millenial Store is an hypothetical online store for gadgets we believe every 'Millenial' or 'Gen Z' should have today. We've got mobile phones, laptops, smartwatches and other gadgets. Explore all our gadgets and choose the ones that suit you.</p>
+    </section>
+
+    <section id="shop">
+        <h1 id="gadgets_title">OUR GADGETS</h1>
+        <div class="grid_container">
+            <div class="grid_item">
+                <div class = "cover" >
+                    
+                    <img id="p1"  class="product_image" src="Images/product1.png" alt="product image">
+                    <h4 class="price_text" ></h4>
+                    <h3 class="product_price" ></h3>
+                </div>
+                     <h1 class="product_name" >SAMSUNG TV</h1>
+                <button class="product_btn" name="Samsung TV">ADD TO CART</button>
+            </div>
+           
+            <div class="grid_item">
+                <div class = "cover" >
+                    
+                    <img id="p2" class="product_image" src="Images/product2.png" alt="product image">
+                    <h4 class="price_text" ></h4>
+                    <h3 class="product_price" ></h3>
+                </div>
+                <h1 class="product_name" >PIXEL 4a</h1>
+                <button class="product_btn" name="Pixel 4a">ADD TO CART</button>
+            </div>
+            <div class="grid_item">
+                <div class = "cover" >
+                    
+                    <img id="p3" class="product_image" src="Images/product3.png" alt="product image">
+                    <h4 class="price_text" ></h4>
+                    <h3 class="product_price" ></h3>
+                </div>
+                <h1 class="product_name" >PS 5</h1>
+                <button class="product_btn" name="PS 5">ADD TO CART</button>
+            </div>
+            <div class="grid_item">
+                <div class = "cover" >
+                    
+                    <img id="p4" class="product_image" src="Images/product4.png" alt="product image">
+                    <h4 class="price_text" ></h4>
+                    <h3 class="product_price" ></h3>
+                </div>
+                <h1 class="product_name">MACBOOK AIR</h1>
+                <button class="product_btn" name="MacBook Air">ADD TO CART</button>
+            </div>
+            <div class="grid_item">
+                <div class = "cover" >
+                    
+                    <img id="p5" class="product_image" src="Images/product5.png" alt="product image">
+                    <h4 class="price_text" ></h4>
+                    <h3 class="product_price" ></h3>
+                </div>
+                <h1 class="product_name" >APPLE WATCH</h1>
+                <button class="product_btn" name="Apple Watch">ADD TO CART</button>
+            </div>
+            <div class="grid_item">
+                <div class = "cover" >
+                    
+                    <img id="p6" class="product_image" src="Images/product6.png" alt="product image">
+                    <h4 class="price_text" ></h4>
+                    <h3 class="product_price" ></h3>
+                </div>
+                <h1 class="product_name">AIR PODS</h1>
+                <button class="product_btn" name="Air Pods">ADD TO CART</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer id="footer">
+        <img id="footer_logo"  src="Images/EMS.svg" alt="EMS logo">
+        <h4 id="footer_text">Designed and Crafted by David Ahonsu</h4>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
